@@ -9,10 +9,15 @@
 import UIKit
 
 class RecordTableViewCell: UITableViewCell {
+    @IBOutlet weak var orderNumber: UILabel!
+    @IBOutlet weak var recordTime: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        orderNumber.textColor = ViewController.color.orange
+        recordTime.textColor = ViewController.color.blue
+        backgroundColor = UIColor.clear
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

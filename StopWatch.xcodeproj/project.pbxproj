@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491E534E1E100EEB003AE6FA /* CustomButtonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491E534D1E100EEB003AE6FA /* CustomButtonClass.swift */; };
+		4954196C1E0DC47200FF7E9C /* TimerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954196B1E0DC47200FF7E9C /* TimerClass.swift */; };
 		4978AC8A1E0D7750006D2541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978AC891E0D7750006D2541 /* AppDelegate.swift */; };
 		4978AC8C1E0D7750006D2541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978AC8B1E0D7750006D2541 /* ViewController.swift */; };
 		4978AC8F1E0D7750006D2541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4978AC8D1E0D7750006D2541 /* Main.storyboard */; };
 		4978AC911E0D7750006D2541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4978AC901E0D7750006D2541 /* Assets.xcassets */; };
 		4978AC941E0D7750006D2541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4978AC921E0D7750006D2541 /* LaunchScreen.storyboard */; };
 		4978AC9F1E0D7750006D2541 /* StopWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4978AC9E1E0D7750006D2541 /* StopWatchTests.swift */; };
+		4978ACB61E0DAAD6006D2541 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4978ACB41E0DAAD6006D2541 /* Roboto-Light.ttf */; };
+		4978ACB71E0DAAD6006D2541 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4978ACB51E0DAAD6006D2541 /* Roboto-Thin.ttf */; };
+		4989CA701E0F041A00E0275D /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4989CA6F1E0F041A00E0275D /* RecordTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		491E534D1E100EEB003AE6FA /* CustomButtonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonClass.swift; sourceTree = "<group>"; };
+		4954196B1E0DC47200FF7E9C /* TimerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerClass.swift; sourceTree = "<group>"; };
 		4978AC861E0D7750006D2541 /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4978AC891E0D7750006D2541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4978AC8B1E0D7750006D2541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,9 @@
 		4978AC9A1E0D7750006D2541 /* StopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4978AC9E1E0D7750006D2541 /* StopWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchTests.swift; sourceTree = "<group>"; };
 		4978ACA01E0D7750006D2541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4978ACB41E0DAAD6006D2541 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		4978ACB51E0DAAD6006D2541 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4989CA6F1E0F041A00E0275D /* RecordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		4978AC7D1E0D7750006D2541 = {
 			isa = PBXGroup;
 			children = (
+				4978ACAB1E0DA9D7006D2541 /* Resources */,
 				4978AC881E0D7750006D2541 /* StopWatch */,
 				4978AC9D1E0D7750006D2541 /* StopWatchTests */,
 				4978AC871E0D7750006D2541 /* Products */,
@@ -79,6 +90,9 @@
 			children = (
 				4978AC891E0D7750006D2541 /* AppDelegate.swift */,
 				4978AC8B1E0D7750006D2541 /* ViewController.swift */,
+				491E534D1E100EEB003AE6FA /* CustomButtonClass.swift */,
+				4989CA6F1E0F041A00E0275D /* RecordTableViewCell.swift */,
+				4954196B1E0DC47200FF7E9C /* TimerClass.swift */,
 				4978AC8D1E0D7750006D2541 /* Main.storyboard */,
 				4978AC901E0D7750006D2541 /* Assets.xcassets */,
 				4978AC921E0D7750006D2541 /* LaunchScreen.storyboard */,
@@ -94,6 +108,15 @@
 				4978ACA01E0D7750006D2541 /* Info.plist */,
 			);
 			path = StopWatchTests;
+			sourceTree = "<group>";
+		};
+		4978ACAB1E0DA9D7006D2541 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4978ACB41E0DAAD6006D2541 /* Roboto-Light.ttf */,
+				4978ACB51E0DAAD6006D2541 /* Roboto-Thin.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +206,8 @@
 			files = (
 				4978AC941E0D7750006D2541 /* LaunchScreen.storyboard in Resources */,
 				4978AC911E0D7750006D2541 /* Assets.xcassets in Resources */,
+				4978ACB61E0DAAD6006D2541 /* Roboto-Light.ttf in Resources */,
+				4978ACB71E0DAAD6006D2541 /* Roboto-Thin.ttf in Resources */,
 				4978AC8F1E0D7750006D2541 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4978AC8C1E0D7750006D2541 /* ViewController.swift in Sources */,
+				4954196C1E0DC47200FF7E9C /* TimerClass.swift in Sources */,
+				4989CA701E0F041A00E0275D /* RecordTableViewCell.swift in Sources */,
+				491E534E1E100EEB003AE6FA /* CustomButtonClass.swift in Sources */,
 				4978AC8A1E0D7750006D2541 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +440,7 @@
 				4978ACA51E0D7750006D2541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4978ACA61E0D7750006D2541 /* Build configuration list for PBXNativeTarget "StopWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				4978ACA81E0D7750006D2541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

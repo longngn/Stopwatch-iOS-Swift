@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import os.log
 @testable import StopWatch
 
 class StopWatchTests: XCTestCase {
@@ -24,13 +25,8 @@ class StopWatchTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let a = Timer()
+        //os_log("fucking son of a bitch", log: .default, type: .debug)
+        print(a.toString)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }
