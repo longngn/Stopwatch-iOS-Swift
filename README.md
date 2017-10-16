@@ -1,4 +1,4 @@
-Simple Stopwatch app mimicking iOS's native stopwatch.
+Simple Stopwatch app mimicking iOS's native Stopwatch.
 
 Platform: iOS.
 
